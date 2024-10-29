@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/*--------------------------------------------Homepage--------------------------------------------*/
+.Firstslide {
+    background-image: linear-gradient(rgba(5, 238, 219, 0.137),rgba(207, 205, 205, 0)),url(resources/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Header and Nav*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #43766C;
+    border-radius: 100px;
+    box-shadow: 0px 4px 8px rgb(104, 103, 103, 0.3);
+}
+
+nav ul li {
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#Home, #About, #Future, #Journey {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: 450;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+#Home:hover, #About:hover, #Future:hover, #Journey:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-light);
+    opacity: 0.8;
+}
+
+#logo {
+    border: solid 2px;
+    padding: 13px;
+    border-radius: 25px;
+    color: #fdfdfd;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 70px;
+}
+
+.img img{
+    width: 550px;
+    height: 100%;
+    position: relative;
+    margin-bottom: -4px;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#name {
+    font-size: 80px;
+    color: rgb(12, 12, 12);;
+    font-weight: 500;
+}
+
+#name span {
+    color: #d60202;
+}
+
+.button {
+    border: solid;
+    
+}
+
+.button a {
+    border: solid;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    overflow: auto;
+}
+
+#description {
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+/*Section 2*/
+
+.Secondslide {
+    border-radius: 20px;
+    background-color: #65a89b;
+    background-position: center;
+    background-size: center;
+    height: 100vh;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.2);
+}
+
+#about_me {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 15%;
+    font-size: 30px;  
+    padding-top: 50px;  
+    color: #fdfdfdf5;
+}
+
+/* left */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+
+.info #nameinfo {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.info .info_describe{
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+    padding: 40px;
+}
+
+.info .info_describe p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 22px;
+}
+
+#status {
+    padding-top: 9px;
+    opacity: 0.8;
+    font-style: italic;
+    font-size: 23px;
+}
+
+/* Right*/
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    float: left;
+    text-align: center;
+}
+
+.vdo {
+    text-align: center;
+    font-size: 45px;
+}
+
+.vdo .video_container video {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    padding: 35px;
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+}
+
+/* Section 3 */
+
+.Thirdslide {
+    background: linear-gradient(rgba(207, 205, 205, 0),rgba(5, 238, 219, 0.158));
+}
+
+.Contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.Contact h2 {
+    padding-bottom: 15px;
+}
+.Contact ul {
+    padding-bottom: 15px;
+}
+
+.contact_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_logo li{
+    list-style: none;
+}
+
+#facebook, #instagram, #github{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#copyright {
+    font-size: small;
+}
+/*--------------------------------------------Homepage--------------------------------------------*/
+
+
+/*--------------------------------------------MyJourney--------------------------------------------*/
+.Firstslide_MyJourney {
+    background: linear-gradient(rgba(5, 238, 219, 0.158),rgba(207, 205, 205, 0));
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding: 25px 25px;
+}
+
+.container_journey {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.container_journey div {
+    margin: 15px;
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(136, 185, 162, 0.212);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+    width: 650px;
+    height: 270px;
+}
+.year1, .year2, .year3, .year4{
+    padding: 20px;
+}
+
+.main span {
+    font-weight: 600;
+}
+
+#year {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+#year1_describe{
+    text-indent: 40px;
+}
+
+#year2_describe {
+    text-indent: 40px;
+}
+
+#year3_describe {
+    text-indent: 40px;
+}
+
+#year4_describe {
+    text-indent: 40px;
+}
+/*--------------------------------------------MyJourney--------------------------------------------*/
+
+
+/*--------------------------------------------MyFuture--------------------------------------------*/
+
+
+.container_future {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    border: hiddden;
+    border-radius: 30px;
+    background-color: rgba(136, 185, 162, 0.212);;
+    box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
+    width: 1200px;
+    height: 500px;
+    padding: 20px;
+    margin: 15px;
+}
+
+#head_future{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+#future_describe {
+    text-indent: 40px;
+}
+/*--------------------------------------------MyFuture--------------------------------------------*/
