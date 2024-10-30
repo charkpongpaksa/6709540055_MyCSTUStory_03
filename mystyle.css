@@ -357,10 +357,10 @@ main {
     }
     
     nav ul li {
-        margin-right: 35px;
+        margin-right: 10px;
         margin-top: 25px;
         margin-bottom: 25px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     
     nav ul li a {
