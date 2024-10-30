@@ -613,7 +613,7 @@ main {
     /*Section 2*/
     
     .Secondslide {
-        border-radius: 20px;
+        border-radius: 0px;
         background-color: #65a89b;
         background-position: center;
         background-size: center;
@@ -987,7 +987,7 @@ main {
     /*Section 2*/
     
     .Secondslide {
-        border-radius: 20px;
+        border-radius: 0px;
         background-color: #65a89b;
         background-position: center;
         background-size: center;
