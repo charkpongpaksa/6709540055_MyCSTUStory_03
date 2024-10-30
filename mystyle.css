@@ -190,7 +190,7 @@ main {
     height: 100%;
     object-fit: cover;
     padding: 35px;
-    border: hiddden;
+    border: hidden;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);;
     box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
@@ -437,11 +437,12 @@ main {
     }
     
     #about_me {
-        display: flex;
+        display: block;
         justify-content: center;
         text-align: center;
         align-items: center;
-        height: 15%;
+        width: 100%;
+        height: 10%;
         font-size: 30px;  
         padding-top: 50px;  
         color: #fdfdfdf5;
@@ -454,13 +455,14 @@ main {
         align-items: center;
         align-self: center;
         flex-direction: column;
-        width: 50%;
-        height: 80%;
+        height: 100%;
         float: left;
+        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     
     .info #nameinfo {
-        font-size: 70px;
+        font-size: 55px;
         font-weight: 400;
     }
     
@@ -475,7 +477,7 @@ main {
     .info .info_describe p {
         padding-top: 2px;
         padding-bottom: 2px;
-        font-size: 22px;
+        font-size: 18px;
     }
     
     #status {
@@ -491,8 +493,8 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 50%;
-        height: 80%;
+        width:45%;
+        height: 100%;
         float: left;
         text-align: center;
     }
@@ -506,13 +508,13 @@ main {
         width: 75%;
         height: 100%;
         object-fit: cover;
-        padding: 35px;
-        border: hiddden;
+        padding: 15px;
+        border: hidden;
         border-radius: 30px;
         background-color: rgba(255, 255, 255, 0.2);;
         box-shadow: 5px 5px 5px rgb(104, 103, 103, 0.5);
     }
-    
+}   
 
 
 @media screen and (max-width: 780px) {
